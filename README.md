@@ -29,7 +29,6 @@ Customized R code for phylum composition/PCoA:
 - ggplot(long_df, aes(x = index, y = Count, fill = Phylum)) + theme_bw(base_size = 12) +
     geom_bar(stat = "identity", position = "fill") +
     facet_wrap(~ disease_status, scales = "free_x", strip.position = "bottom") +
-    # expand = c(0, 0) removes the 5% padding top and bottom
     scale_y_continuous(labels = scales::percent, expand = c(0, 0)) +
     theme_minimal() +
     labs(
