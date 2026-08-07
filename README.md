@@ -43,7 +43,6 @@ Customized R code for phylum composition/PCoA:
         panel.spacing = unit(0.5, "lines"),
         strip.placement = "outside",       
         strip.text = element_text(size = 11, face = "bold"),
-        # Optional: Removes grey panel grid lines that might extend into empty space
         panel.grid.major.x = element_blank(),
         panel.grid.minor = element_blank()
     )
